@@ -1,0 +1,9 @@
+{
+	"name": "dfproayan",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3b37f016-f385-45b1-8199-0ca39cf96ff6",
+		"tenantId": "1515ef80-3c68-42cf-b34c-4cf28a0b5040"
+	}
+}

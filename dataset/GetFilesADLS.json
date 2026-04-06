@@ -1,0 +1,20 @@
+{
+	"name": "GetFilesADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StorageAccountLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "allFIles.json",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
