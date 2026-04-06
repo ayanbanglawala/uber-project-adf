@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Files Array Lookup",
+				"name": "Files Array Lookup act",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -38,7 +38,7 @@
 				"type": "ForEach",
 				"dependsOn": [
 					{
-						"activity": "Files Array Lookup",
+						"activity": "Files Array Lookup act",
 						"dependencyConditions": [
 							"Succeeded"
 						]
